@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.konva-container {
+  background-color: aqua;
+  max-width: 120rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  width: 30%;
+  padding: 1rem;
+  background-color: cadetblue;
+  border-radius: 6px;
+}
+
+.konva-card {
+  background-color: #c1a7a7;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.5rem;
+}
+
+.brush-thickness-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.3rem 0;
+}
+
+.brush-thickness-slider input {
+  width: 80%;
+}
+
+.smaller-circle {
+  width: 100%;
+    max-width: 12px;
+    height: 12px;
+    background: #1c7ed6;
+    box-shadow: 0px 4px 8px -2px rgb(16 24 40 / 10%), 0px 2px 4px -2px rgb(16 24 40 / 6%);
+    border-radius: 12px;
+}
+
+.bigger-circle {
+  width: 100%;
+  max-width: 24px;
+  height: 24px;
+  background: #1c7ed6;
+  box-shadow: 0px 4px 8px -2px rgb(16 24 40 / 10%), 0px 2px 4px -2px rgb(16 24 40 / 6%);
+  border-radius: 12px;
+}
+
+.tools {
+  padding: 0.5rem;
+}
+
+.reset-btn {
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  background: #bfbfbf;
+  border: none;
+  font-size: medium;
+  color: #495057;
+}
+
+.reset-btn:hover {
+  background: #37b24d;
+  color: #efebec;
+}
+
+.tools-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.editing-tool-icon {
+  width: 44px;
+  height: 44px;
+  background: #bfbfbf;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.konvajs-content {
+  background: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.icon-active {
+  background-color: #37b24d;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+
+  .tools {
+    margin: 0;
+  }
+}
