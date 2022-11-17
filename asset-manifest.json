@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactKonva/static/css/main.5871b824.css",
+    "main.js": "/reactKonva/static/js/main.ff65eae1.js",
+    "static/media/eraser.svg": "/reactKonva/static/media/eraser.24be6c62e37e5103b26d9c604d816670.svg",
+    "index.html": "/reactKonva/index.html",
+    "static/media/brush.svg": "/reactKonva/static/media/brush.b3580257af6f7b2b39c98a2b9afdcbdf.svg",
+    "main.5871b824.css.map": "/reactKonva/static/css/main.5871b824.css.map",
+    "main.ff65eae1.js.map": "/reactKonva/static/js/main.ff65eae1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5871b824.css",
+    "static/js/main.ff65eae1.js"
+  ]
+}
